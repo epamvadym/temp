@@ -13,7 +13,7 @@ When the installing is finished, checkout the project from GitHub
 After that the studio downloads the environment it needs and builds the project.
 
 
-When the project is built, there two ways how to run tests:
+When the project is built, there two ways how to run tests.
 #### From Android Studio:
 Open the `app/java` folder, right click the test directory and run it
 
