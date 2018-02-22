@@ -10,7 +10,7 @@ When the installing is finished, checkout the project from GitHub
 ![checkout](https://user-images.githubusercontent.com/36236584/36541130-94014cfa-17e5-11e8-9320-35b3f5eb5138.png)
 ![clone](https://user-images.githubusercontent.com/36236584/36541198-cd778634-17e5-11e8-9a31-b681b0778ab1.png)
 
-After that the studio download the environment it needs and build the project.
+After that the studio downloads the environment it needs and builds the project.
 
 
 When the project is built, there two ways how to run tests:
@@ -20,9 +20,9 @@ Open the `app/java` folder, right click the test directory and run it
 ![run studio](https://user-images.githubusercontent.com/36236584/36541485-bc6cabd4-17e6-11e8-854c-82779c3642a1.png)
 
 #### From command line
-If you do not want Android Studio, you can download the basic Android command line tools and 
-use the included [sdkmanager](https://developer.android.com/studio/command-line/sdkmanager.html) to download other SDK packages.
-This way you need to add the local.properties file with the path to sdk `sdk.dir=D\:\\..\\sdk` file at the root of the project. 
+If you do not want Android Studio, you can download the basic [Android command line tools](https://developer.android.com/studio/index.html) (links are at the bottom of a page) and 
+use the included [sdkmanager](https://developer.android.com/studio/command-line/sdkmanager.html) to download other SDK packages (by the command `sdkmanager "platform-tools" "platforms;android-26"`).
+This way you need to add the **local.properties** file with the path to sdk `sdk.dir=D\:\\..\\sdk` file at the root of the project. 
 
 Open the command line at the root of the project and run `./gradlew test` (or `gradlew test` for Windows) command
 
