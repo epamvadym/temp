@@ -15,7 +15,7 @@ After that the studio download the environment it needs and build the project.
 
 When the project is built, there two ways how to run tests:
 #### From Android Studio:
-Open the app/java folder, right ckick the test directory and run it
+Open the `app/java` folder, right click the test directory and run it
 
 ![run studio](https://user-images.githubusercontent.com/36236584/36541485-bc6cabd4-17e6-11e8-854c-82779c3642a1.png)
 
@@ -28,7 +28,7 @@ Open the command line at the root of the project and run `./gradlew test` (or `g
 
 ![run tests](https://user-images.githubusercontent.com/36236584/36541649-4986e340-17e7-11e8-85ef-beb68bf102ec.png)
 
-You can see the which test are passed and failed
+You can see which tests are passed and failed
 
 ![running tests](https://user-images.githubusercontent.com/36236584/36543391-5255db70-17ec-11e8-921c-2a057957848e.png)
 
